@@ -1,13 +1,193 @@
 /*
-Theme Name: MysticalRedMoon
-Theme URI: 
+Theme Name: mysticalRedMoon
+Theme URI: mysticalredmoon.co.uk
 Author: Dean Jeffery
 Author URI: deanjeffery.co.uk
-Description: 
-Version: 2020.1
+Description: Custom built WordPress theme for Mystical Red Moon website
+Version: 1.0.0
+License: GNU General Public License
+License URI: https://www.gnu.org/licenses/gpl.html
 Tags:
+Text Domain: mysticalRedMoon
+
+mysticalRedMoon WordPress Theme © 2020
+
 */
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
 
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}body{line-height:1}button{outline:0}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}q{display:inline;font-style:italic}q:before{content:'"';font-style:normal}q:after{content:'"';font-style:normal}textarea,input[type="text"],input[type="button"],input[type="submit"],input[type="reset"],input[type="search"],input[type="password"]{-webkit-appearance:none;appearance:none;border-radius:0}table{border-collapse:collapse;border-spacing:0}th,td{padding:2px}big{font-size:120%}small,sup,sub{font-size:80%}sup{vertical-align:super}sub{vertical-align:sub}dd{margin-left:20px}kbd,tt{font-family:courier;font-size:12px}ins{text-decoration:underline}del,strike,s{text-decoration:line-through}dt{font-weight:bold}address,cite,var{font-style:italic}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
-.sticky{}.bypostauthor{}.wp-caption{}.wp-caption-text{}.gallery-caption{}.alignright{}.alignleft{}.aligncenter{}.screen-reader-text{clip:rect(1px, 1px, 1px, 1px);position:absolute !important}
+	0. 	CSS Reset
+	1. 	Typography
+	2. 	Header
+  3.  Layout
+	4.  Blogs
+	5.  Error 404
+	6.  Footer
+	7.  Media Queries
 
+>>> Color codes
+---primary---
+Red (h1 + bg): #AA183A
+black (body bg + text on light bg): #1F2525
+light purple (h2-6): #B3A2A7
+Dark grey (Blocks): #2A2E2E
+---secondary---
+Dark red (hover effects): #731229
+deep purple (if needed): #8E819A
+---greys---
+white (if needed): #FFFFFF
+med. grey (body text): #DDDDDD
+Dark grey (accents): #2A2E2E
+
+
+----------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/*	0. CSS Reset
+/* -------------------------------------------------------------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* -------------------------------------------------------------------------- */
+/*	1. Typography
+/* -------------------------------------------------------------------------- */
+h1 a {
+  color: #AA183A;
+  font-family: "Yeseva One", arial, sans-serif;
+  font-size: 2rem;
+}
+
+h2 {
+  color: #B3A2A7;
+  font-family: 'roboto', arial, sans-serif;
+}
+
+p {
+  color: #888888;
+  font-family: 'roboto', arial, sans-serif;
+}
+
+/* -------------------------------------------------------------------------- */
+/*	2. Header
+/* -------------------------------------------------------------------------- */
+header {
+  width: 100%;
+  height: 100px;
+  border: 1px solid limegreen;
+  background-color: #2A2E2E;
+}
+
+/* -------------------------------------------------------------------------- */
+/*	3. Layout
+/* -------------------------------------------------------------------------- */
+body {
+  background-color: #1F2525;
+  color: white;
+}
+
+.feature {
+  width: 80%;
+  height: auto;
+  border: 1px solid pink;
+  margin: 0 auto;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  background-color: #2A2E2E;
+}
+
+.feature img {
+  height: auto;
+  max-width: 100%;
+  border-radius: 16px;
+}
+
+.thirds{
+  display: flex;
+  flex-direction: row;
+}
+
+.two-thirds {
+  width: 66.66666%;
+  border: 1px solid blue;
+}
+
+.one-thirds {
+  width: 33.333333%;
+  border: 1px solid green;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 1px solid yellow;
+}
+
+.red-container{
+  max-width: 100%;
+  background-color: #AA183A;
+  border: white;
+  height: auto;
+  padding: 50px;
+}
+
+/* -------------------------------------------------------------------------- */
+/*	4. Blogs
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/*	5. Error 404
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/*	6. Footer
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/*	7. Media queries
+/* -------------------------------------------------------------------------- */
