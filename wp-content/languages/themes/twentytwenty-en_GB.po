@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - Twenty Twenty package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-12-13 09:40:11+0000\n"
+"PO-Revision-Date: 2020-03-31 21:16:41+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -48,10 +48,6 @@ msgstr "Members get access to exclusive exhibits and sales. Our memberships cost
 #: inc/starter-content.php:133
 msgid "With seven floors of striking architecture, UMoMA shows exhibitions of international contemporary art, sometimes along with art historical retrospectives. Existential, political and philosophical issues are intrinsic to our programme. As visitor you are invited to guided tours artist talks, lectures, film screenings and other events with free admission"
 msgstr "With seven floors of striking architecture, UMoMA shows exhibitions of international contemporary art, sometimes along with art historical retrospectives. Existential, political and philosophical issues are intrinsic to our programme. As a visitor, you are invited to guided tours, artist talks, lectures, film screenings and other events with free admission."
-
-#: inc/starter-content.php:129
-msgid "”Cyborgs, as the philosopher Donna Haraway established, are not reverent. They do not remember the cosmos.”"
-msgstr "”Cyborgs, as the philosopher Donna Haraway established, are not reverent. They do not remember the cosmos.”"
 
 #: inc/starter-content.php:113
 msgid "From Signac to Matisse"
@@ -130,15 +126,19 @@ msgstr "Works and Days"
 msgid "Become a Member and Get Exclusive Offers!"
 msgstr "Become a Member and Get Exclusive Offers!"
 
-#: inc/starter-content.php:81
-msgid "Theatre of Operations"
-msgstr "Theatre of Operations"
-
 #: inc/starter-content.php:136
 msgid "The exhibitions are produced by UMoMA in collaboration with artists and museums around the world and they often attract international attention. UMoMA has received a Special Commendation from the European Museum of the Year, and was among the top candidates for the Swedish Museum of the Year Award as well as for the Council of Europe Museum Prize."
 msgstr "The exhibitions are produced by UMoMA in collaboration with artists and museums around the world and they often attract international attention. UMoMA has received a Special Commendation from the European Museum of the Year, and was among the top candidates for the Swedish Museum of the Year Award as well as for the Council of Europe Museum Prize."
 
-#: template-parts/modal-search.php:20 searchform.php:24
+#: inc/starter-content.php:81
+msgid "Theatre of Operations"
+msgstr "Theatre of Operations"
+
+#: inc/starter-content.php:129
+msgid "&#8220;Cyborgs, as the philosopher Donna Haraway established, are not reverent. They do not remember the cosmos.&#8221;"
+msgstr "&#8220;Cyborgs, as the philosopher Donna Haraway established, are not reverent. They do not remember the cosmos.&#8221;"
+
+#: searchform.php:24 template-parts/modal-search.php:20
 msgid "Search for:"
 msgstr "Search for:"
 
@@ -146,12 +146,12 @@ msgstr "Search for:"
 msgid "search again"
 msgstr "search again"
 
-#. translators: %s: HTML character for up arrow
+#. translators: %s: HTML character for up arrow.
 #: footer.php:49
 msgid "Up %s"
 msgstr "Up %s"
 
-#. translators: Copyright date format, see https://secure.php.net/date
+#. translators: Copyright date format, see https://www.php.net/date
 #: footer.php:25
 msgctxt "copyright date format"
 msgid "Y"
@@ -161,19 +161,19 @@ msgstr "Y"
 msgid "404 not found"
 msgstr "404 not found"
 
-#. translators: %s: Number of search results
+#. translators: %s: Number of search results.
 #: index.php:39
 msgid "We found %s result for your search."
 msgid_plural "We found %s results for your search."
 msgstr[0] "We found %s result for your search."
 msgstr[1] "We found %s results for your search."
 
-#. translators: %s: HTML character for up arrow
+#. translators: %s: HTML character for up arrow.
 #: footer.php:43
 msgid "To the top %s"
 msgstr "To the top %s"
 
-#. Translators: 1 = comment date, 2 = comment time
+#. translators: 1: Comment date, 2: Comment time.
 #: classes/class-twentytwenty-walker-comment.php:69
 msgid "%1$s at %2$s"
 msgstr "%1$s at %2$s"
@@ -190,13 +190,13 @@ msgstr "Your comment is awaiting moderation."
 msgid "Leave a comment"
 msgstr "Leave a comment"
 
-#. translators: %s: post title
+#. translators: %s: Post title.
 #: comments.php:37
 msgctxt "comments title"
 msgid "One reply on &ldquo;%s&rdquo;"
 msgstr "One reply on &ldquo;%s&rdquo;"
 
-#. translators: 1: number of comments, 2: post title
+#. translators: 1: Number of comments, 2: Post title.
 #: comments.php:41
 msgctxt "comments title"
 msgid "%1$s reply on &ldquo;%2$s&rdquo;"
@@ -212,7 +212,7 @@ msgstr "Comments"
 msgid "Comments are closed."
 msgstr "Comments are closed."
 
-#: functions.php:491 inc/starter-content.php:176 inc/starter-content.php:186
+#: inc/starter-content.php:176 inc/starter-content.php:186 functions.php:494
 msgid "Primary"
 msgstr "Primary"
 
@@ -221,7 +221,7 @@ msgstr "Primary"
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr "Edit <span class=\"screen-reader-text\">%s</span>"
 
-#: template-parts/content.php:48 template-parts/content-cover.php:138
+#: template-parts/content-cover.php:138 template-parts/content.php:48
 msgid "Pages:"
 msgstr "Pages:"
 
@@ -229,11 +229,11 @@ msgstr "Pages:"
 msgid "Footer"
 msgstr "Footer"
 
-#: template-parts/content.php:48 template-parts/content-cover.php:138
+#: template-parts/content-cover.php:138 template-parts/content.php:48
 msgid "Page"
 msgstr "Page"
 
-#: functions.php:496
+#: functions.php:499
 msgid "Secondary"
 msgstr "Secondary"
 
@@ -265,8 +265,8 @@ msgstr "Expanded"
 msgid "Social links"
 msgstr "Social links"
 
-#. translators: %s: Author name
-#: template-parts/entry-author-bio.php:20 inc/template-tags.php:354
+#. translators: %s: Author name.
+#: inc/template-tags.php:354 template-parts/entry-author-bio.php:20
 msgid "By %s"
 msgstr "By %s"
 
@@ -296,8 +296,8 @@ msgstr "Sticky post"
 msgid "Tags"
 msgstr "Tags"
 
-#: template-parts/content-cover.php:70 template-parts/entry-header.php:36
-#: inc/template-tags.php:389
+#: inc/template-tags.php:389 template-parts/entry-header.php:36
+#: template-parts/content-cover.php:70
 msgid "Categories"
 msgstr "Categories"
 
@@ -325,63 +325,63 @@ msgstr "Search"
 msgid "Continue reading"
 msgstr "Continue reading"
 
-#: functions.php:548
+#: functions.php:551
 msgctxt "Short name of the larger font size in the block editor."
 msgid "XL"
 msgstr "XL"
 
-#: functions.php:547
+#: functions.php:550
 msgctxt "Name of the larger font size in the block editor"
 msgid "Larger"
 msgstr "Larger"
 
-#: functions.php:542
+#: functions.php:545
 msgctxt "Short name of the large font size in the block editor."
 msgid "L"
 msgstr "L"
 
-#: functions.php:541
+#: functions.php:544
 msgctxt "Name of the large font size in the block editor"
 msgid "Large"
 msgstr "Large"
 
-#: functions.php:536
+#: functions.php:539
 msgctxt "Short name of the regular font size in the block editor."
 msgid "M"
 msgstr "M"
 
-#: functions.php:530
+#: functions.php:533
 msgctxt "Short name of the small font size in the block editor."
 msgid "S"
 msgstr "S"
 
-#: functions.php:535
+#: functions.php:538
 msgctxt "Name of the regular font size in the block editor"
 msgid "Regular"
 msgstr "Regular"
 
-#: functions.php:529
+#: functions.php:532
 msgctxt "Name of the small font size in the block editor"
 msgid "Small"
 msgstr "Small"
 
-#: functions.php:377
+#: functions.php:380
 msgid "Widgets in this area will be displayed in the second column in the footer."
 msgstr "Widgets in this area will be displayed in the second column in the footer."
 
-#: functions.php:375
+#: functions.php:378
 msgid "Footer #2"
 msgstr "Footer #2"
 
-#: functions.php:365
+#: functions.php:368
 msgid "Widgets in this area will be displayed in the first column in the footer."
 msgstr "Widgets in this area will be displayed in the first column in the footer."
 
-#: functions.php:363
+#: functions.php:366
 msgid "Footer #1"
 msgstr "Footer #1"
 
-#: functions.php:338
+#: functions.php:341
 msgid "Skip to the content"
 msgstr "Skip to the content"
 
@@ -389,12 +389,12 @@ msgstr "Skip to the content"
 msgid "Powered by WordPress"
 msgstr "Powered by WordPress"
 
-#: classes/class-twentytwenty-walker-page.php:134 inc/template-tags.php:555
+#: classes/class-twentytwenty-walker-page.php:107 inc/template-tags.php:555
 msgid "Show sub menu"
 msgstr "Show sub menu"
 
-#. translators: %d: ID of a post
-#: classes/class-twentytwenty-walker-page.php:82
+#. translators: %d: ID of a post.
+#: classes/class-twentytwenty-walker-page.php:70
 msgid "#%d (no title)"
 msgstr "#%d (no title)"
 
@@ -454,35 +454,35 @@ msgstr "Scroll Down"
 msgid "Social Links Menu"
 msgstr "Social Links Menu"
 
-#: functions.php:514
+#: functions.php:517
 msgid "Background Color"
 msgstr "Background Colour"
 
-#: functions.php:501
+#: functions.php:504
 msgid "Subtle Background"
 msgstr "Subtle Background"
 
-#: functions.php:486
+#: functions.php:489
 msgid "Accent Color"
 msgstr "Accent Colour"
 
-#: functions.php:259
+#: functions.php:262
 msgid "Social Menu"
 msgstr "Social Menu"
 
-#: functions.php:258
+#: functions.php:261
 msgid "Footer Menu"
 msgstr "Footer Menu"
 
-#: functions.php:257
+#: functions.php:260
 msgid "Mobile Menu"
 msgstr "Mobile Menu"
 
-#: functions.php:256
+#: functions.php:259
 msgid "Desktop Expanded Menu"
 msgstr "Desktop Expanded Menu"
 
-#: functions.php:255
+#: functions.php:258
 msgid "Desktop Horizontal Menu"
 msgstr "Desktop Horizontal Menu"
 
