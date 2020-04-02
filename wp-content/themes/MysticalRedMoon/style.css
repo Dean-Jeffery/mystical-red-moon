@@ -115,7 +115,7 @@ h2 {
 }
 
 p {
-  color: #888888;
+  color: #DDDDDD;
   font-family: 'roboto', arial, sans-serif;
 }
 
@@ -140,7 +140,6 @@ body {
 .feature {
   width: 80%;
   height: auto;
-  border: 1px solid pink;
   margin: 50px auto;
   padding: 50px;
   display: flex;
