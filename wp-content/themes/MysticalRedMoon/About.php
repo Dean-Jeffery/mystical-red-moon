@@ -1,12 +1,21 @@
 <?php /* Template Name: About */ ?>
 <?php get_header(); ?>
 <main id="content">
-<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-<?php get_template_part( 'entry' ); ?>
-<?php comments_template(); ?>
-<?php endwhile; endif; ?>
-<?php get_template_part( 'nav', 'below' ); ?>
-<h2>this is a test h2</h2>
+    <div class="feature">
+        <div class="two-thirds">
+            <h2>About me</h2>
+            <p>This is some body text. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+        </div>
+        <div class="one-thirds">
+            <img src="https://image.shutterstock.com/image-photo/happy-cheerful-young-woman-wearing-260nw-613759379.jpg" alt="profile-pic">
+        </div>
+    </div>
+    <div class="red-container">
+        <div class="thirds">
+        </div>
+    </div>
 </main>
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
