@@ -4,7 +4,7 @@
   <meta charset="<?php bloginfo('charset'); ?>" />
   <meta name="viewport" content="width=device-width" />
   <?php wp_head(); ?>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,400,400i,700,700i|Yeseva+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,400,400i,700,700i|Yeseva+One&display=swap" rel="stylesheet">
 </head>
 <body <?php body_class(); ?>>
   <header id="header">
