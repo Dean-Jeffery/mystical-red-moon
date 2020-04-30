@@ -111,14 +111,14 @@ h2 {
   color: #B3A2A7;
   font-family: 'roboto', arial, sans-serif;
   font-size: 1.7em;
-  padding-bottom: 3rem;
+  padding-bottom: 1.5rem;
 }
 
 h3{
   color: #B3A2A7;
 }
 
-p {
+p, li a{
   color: #DDDDDD;
   font-family: 'roboto', arial, sans-serif;
   line-height: 1.1;
@@ -130,13 +130,28 @@ p {
 /* -------------------------------------------------------------------------- */
 header {
   width: 100%;
-  height: 100px;
-  border: 1px solid limegreen;
+  height: 4rem;
   background-color: #2A2E2E;
+  -webkit-box-shadow: 0px 0px 13px 7px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 13px 7px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 13px 7px rgba(0,0,0,0.5);
+  
+}
+
+header .wrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+  height: inherit;
 }
 
 ul li{
-  display: inline;
+  display: inline-flex;
+}
+
+header ul li{
+  padding: 0 2.5px;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -153,8 +168,10 @@ body {
   margin: 50px auto;
   padding: 50px;
   display: flex;
+  box-sizing: border-box;
   flex-direction: row;
   background-color: #2A2E2E;
+  border-radius: 8px;
   -webkit-box-shadow: 0px 0px 13px 7px rgba(0,0,0,0.5);
   -moz-box-shadow: 0px 0px 13px 7px rgba(0,0,0,0.5);
   box-shadow: 0px 0px 13px 7px rgba(0,0,0,0.5);
@@ -176,6 +193,7 @@ body {
   display: flex;
   flex-direction: column;
   padding-right: 50px;
+  height: auto;
 }
 
 .two-thirds p {
@@ -183,6 +201,8 @@ body {
 }
 .one-thirds {
   width: 33.333333%;
+  border: 1px solid greenyellow;
+  height: auto;
 }
 
 .container{
@@ -205,12 +225,16 @@ body {
   background-color: transparent;
   text-decoration: none;
   font-size: 1rem;
-  padding: 5px 10px;
+  padding: 10px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
   max-width: 70px;
   cursor: pointer;
+}
+
+.wrapper{
+  max-width: 80%;
 }
 
 
