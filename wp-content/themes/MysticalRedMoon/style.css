@@ -60,13 +60,13 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
+  border: 0;
+  font: inherit;
+  font-size: 100%;
   margin: 0;
   padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
   text-decoration: none;
+  vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -120,29 +120,28 @@ h3{
 p, li a{
   color: #DDDDDD;
   font-family: 'roboto', arial, sans-serif;
-  line-height: 1.1;
   font-weight: 300;
+  line-height: 1.1;
 }
 
 /* -------------------------------------------------------------------------- */
 /*	2. Header
 /* -------------------------------------------------------------------------- */
 header {
-  width: 100%;
-  height: 4rem;
   background-color: #2A2E2E;
   -webkit-box-shadow: 0px 0px 13px 7px rgba(0,0,0,0.5);
   -moz-box-shadow: 0px 0px 13px 7px rgba(0,0,0,0.5);
   box-shadow: 0px 0px 13px 7px rgba(0,0,0,0.5);
-  
+  width: 100%;
+  height: 4rem;
 }
 
 header .wrapper{
+  align-items: center;
   display: flex;
+  height: inherit;
   justify-content: space-between;
   margin: 0 auto;
-  align-items: center;
-  height: inherit;
 }
 
 ul li{
@@ -162,24 +161,24 @@ body {
 }
 
 .feature {
-  width: 80%;
-  height: auto;
-  margin: 50px auto;
-  padding: 50px;
-  display: flex;
-  box-sizing: border-box;
-  flex-direction: row;
   background-color: #2A2E2E;
   border-radius: 8px;
   -webkit-box-shadow: 0px 0px 13px 7px rgba(0,0,0,0.5);
   -moz-box-shadow: 0px 0px 13px 7px rgba(0,0,0,0.5);
   box-shadow: 0px 0px 13px 7px rgba(0,0,0,0.5);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  margin: 50px auto;
+  padding: 50px;
+  width: 80%;
 }
 
 .feature img {
+  border-radius: 16px;
   height: auto;
   max-width: 100%;
-  border-radius: 16px;
 }
 
 .thirds{
@@ -188,48 +187,48 @@ body {
 }
 
 .two-thirds {
-  width: 66.66666%;
   display: flex;
   flex-direction: column;
-  padding-right: 50px;
   height: auto;
+  padding-right: 50px;
+  width: 66.66666%;
 }
 
 .two-thirds p {
   flex-grow: 1;
 }
 .one-thirds {
-  width: 33.333333%;
   border: 1px solid greenyellow;
   height: auto;
+  width: 33.333333%;
 }
 
 .container{
-  max-width: 1200px;
-  margin: 0 auto;
   border: 1px solid yellow;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 .red-container{
-  max-width: 100%;
   background-color: #AA183A;
   border: white;
   height: auto;
+  max-width: 100%;
   padding: 50px;
 }
 
 .button{
   border: 2px solid #AA183A;
-  color: #AA183A;
   background-color: transparent;
-  text-decoration: none;
-  font-size: 1rem;
-  padding: 10px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
-  max-width: 70px;
+  color: #AA183A;
   cursor: pointer;
+  font-size: 1rem;
+  padding: 10px;
+  max-width: 70px;
+  text-decoration: none;
 }
 
 .wrapper{
