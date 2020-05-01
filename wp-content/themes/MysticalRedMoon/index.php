@@ -14,6 +14,7 @@
     </div>
   </div>
   <div class="red-container">
+    <div class="wrapper">
   <h2>Recent Blogs</h2>
     <div class="thirds">
       <div class="one-thirds">
@@ -32,6 +33,7 @@
         <button type="button" name="button">Button:)</button>
       </div>
     </div>
+  </div>
   </div>
 </main>
 <?php get_footer(); ?>
