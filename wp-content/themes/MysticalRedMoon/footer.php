@@ -5,24 +5,21 @@
 
 </div>
 <footer id="footer">
-    <p>Mystical Red Moon</p>
-    <div class="thirds">
-        <div class="one-thirds">
-            <div class="contact">
-                <p>hello@redmoontarot.com</p>
+    <div class="wrapper">
+        <h5>Mystical Red Moon</h5>
+        <div>
+            <div>
+                <div class="contact">
+                    <p>hello@redmoontarot.com</p>
+                </div>
+            </div>
+            <div>
+                <p>nav nav nav nav nav</p>
             </div>
         </div>
-        <div class="one-thirds">
-            <div id="copyright">
-                &copy; <?php echo esc_html(date_i18n(__('Y', 'mystical Red Moon'))); ?> <?php echo esc_html(get_bloginfo('name')); ?>
-            </div>
+        <div class="shameless-plug">
+            <p>Website by <a href="http://deanjeffery.co.uk" target="_blank">Dean Jeffery</a></p>
         </div>
-        <div class="one-thirds">
-            <p>nav nav nav nav nav</p>
-        </div>
-    </div>
-    <div class="shameless-plug">
-        <p>Website by <a href="http://deanjeffery.co.uk" target="_blank">Dean Jeffery</a></p>
     </div>
 </footer>
 </div>
