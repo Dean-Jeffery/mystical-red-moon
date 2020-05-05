@@ -42,8 +42,8 @@ white (if needed): #FFFFFF
 med. grey (body text): #DDDDDD
 Dark grey (accents): #2A2E2E
 
-
 ----------------------------------------------------------------------------- */
+
 /* -------------------------------------------------------------------------- */
 /*	0. CSS Reset
 /* -------------------------------------------------------------------------- */
@@ -109,13 +109,14 @@ h1 a {
 h2 {
   color: #B3A2A7;
   font-family: 'roboto', arial, sans-serif;
-  font-size: 1.7em;
+  font-size: 1.7rem;
   padding-bottom: 1.5rem;
 }
 
 h3{
   color: #B3A2A7;
   font-family: 'roboto', arial, sans-serif;
+  font-size: 1.3rem;
 }
 
 p, li a{
@@ -204,19 +205,23 @@ body {
 }
 
 .red-container .one-thirds{
-  padding: 50px;
+  padding: 25px;
+}
+
+.red-container .one-thirds p{
+  padding: 25px 0;
 }
 
 .red-container .one-thirds:nth-of-type(2){
-  margin: 0 20px;
+  margin: 0 50px;
 }
 
 .red-container .one-thirds{
   background-color: #2A2E2E;
   border-radius: 8px;
-  -webkit-box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.5);
-  -moz-box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.5);
-  box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0px 0px 13px 7px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 13px 7px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 13px 7px rgba(0,0,0,0.5);
 }
 
 .container{
@@ -271,6 +276,17 @@ body {
 /* -------------------------------------------------------------------------- */
 /*	8. Footer
 /* -------------------------------------------------------------------------- */
+
+
+
+.shameless-plug{
+  text-align: center;
+}
+.shameless-plug a{
+  color: aqua;
+}
+
+
 /* -------------------------------------------------------------------------- */
 /*	9. Media queries
 /* -------------------------------------------------------------------------- */

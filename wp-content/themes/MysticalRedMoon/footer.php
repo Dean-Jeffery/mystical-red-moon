@@ -1,15 +1,15 @@
 </div>
+<div>
+    <!-- Email signup -->
+    <h4>Email signup</h4>
 
+</div>
 <footer id="footer">
     <p>Mystical Red Moon</p>
-
     <div class="thirds">
-
-
         <div class="one-thirds">
             <div class="contact">
-                <p>555 5555</p>
-                <p>email@mysticalRedMoon.com</p>
+                <p>hello@redmoontarot.com</p>
             </div>
         </div>
         <div class="one-thirds">
@@ -18,14 +18,10 @@
             </div>
         </div>
         <div class="one-thirds">
-
             <p>nav nav nav nav nav</p>
-
         </div>
-
-
     </div>
-    <div>
+    <div class="shameless-plug">
         <p>Website by <a href="http://deanjeffery.co.uk" target="_blank">Dean Jeffery</a></p>
     </div>
 </footer>
