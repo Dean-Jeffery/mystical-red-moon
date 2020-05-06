@@ -103,34 +103,40 @@ table {
 /* -------------------------------------------------------------------------- */
 h1 a {
   color: #AA183A;
-  font-family: "Kefa", arial, sans-serif;
+  font-family: "Kefa", Palatino, serif;
   font-size: 2rem;
 }
 h2 {
   color: #B3A2A7;
-  font-family: 'roboto', arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   font-size: 1.7rem;
   padding-bottom: 1.5rem;
+  letter-spacing: 0.05rem;
 }
 
 h3{
   color: #B3A2A7;
-  font-family: 'roboto', arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   font-size: 1.3rem;
+  letter-spacing: 0.05rem;
 }
 
 h5{
   color: #AA183A;
-  font-family: "Kefa", Arial, sans-serif;
-  font-size: 1.3rem;
+  font-family: "Kefa", Palatino, serif;
+  font-size: 1.4rem;
+  padding-top: 35px;
 }
 
 p, li a{
   color: #DDDDDD;
-  font-family: 'roboto', arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   font-weight: 300;
-  line-height: 1.1;
+  line-height: 1.3rem;
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
 }
+
 
 /* -------------------------------------------------------------------------- */
 /*	2. Header
@@ -198,7 +204,7 @@ body {
   display: flex;
   flex-direction: column;
   height: auto;
-  padding-right: 50px;
+  padding-right: 35px;
   width: 66.66666%;
 }
 
@@ -264,6 +270,7 @@ body {
   width: -moz-max-content;    /* Firefox/Gecko */
   width: -webkit-max-content; /* Chrome */
   width: max-content;
+  margin-bottom: 10px;
 }
 
 .wrapper{
@@ -290,22 +297,24 @@ body {
 /* -------------------------------------------------------------------------- */
 
 footer{
-  background-color: #2A2E2E;
+  background-color: #646464;
   -webkit-box-shadow: 0px 0px 13px 7px rgba(0,0,0,0.5);
   -moz-box-shadow: 0px 0px 13px 7px rgba(0,0,0,0.5);
   box-shadow: 0px 0px 13px 7px rgba(0,0,0,0.5);
 }
 
-footer .wrapper{
+.footer{
+  padding: 35px 0;
   display: flex;
   justify-content: space-between;
 }
 
-.shameless-plug{
+.shameless-plug p{
   text-align: center;
+  font-size: 0.8rem;
 }
 .shameless-plug a{
-  color: aqua;
+  color: #000000;
 }
 
 
