@@ -22,7 +22,7 @@ mysticalRedMoon WordPress Theme © 2020
 	2. 	Header
   3.  Layout
   4.  Blog
-  5.  Contact
+  5.  Contact + email signup
   6.  Shop
 	7.  Error 404
 	8.  Footer
@@ -118,6 +118,13 @@ h3{
   color: #B3A2A7;
   font-family: 'Roboto', Arial, sans-serif;
   font-size: 1.3rem;
+  letter-spacing: 0.05rem;
+}
+
+h4{
+  color: #B3A2A7;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 1.2rem;
   letter-spacing: 0.05rem;
 }
 
@@ -264,7 +271,9 @@ body {
   cursor: pointer;
   font-family: 'roboto', arial, sans-serif;
   font-size: 1.1rem;
-  padding: 10px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
   text-decoration: none;
   width: intrinsic;           /* Safari/WebKit uses a non-standard name */
   width: -moz-max-content;    /* Firefox/Gecko */
@@ -284,8 +293,31 @@ body {
 /*	4. Blog
 /* -------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------- */
-/*	5. Contact
+/*	5. Contact + email signup
 /* -------------------------------------------------------------------------- */
+
+
+input[type=text]{
+  width: auto;
+  padding: 5px;
+  margin: 5px 0 22px 0;
+  border: none;
+  border-radius: 8px;
+  background: #888888;
+  color: white;
+}
+
+input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+  color: black;
+}
+
+form .button{
+  display: block;
+}
+
+
 /* -------------------------------------------------------------------------- */
 /*	6. Shop
 /* -------------------------------------------------------------------------- */
@@ -297,7 +329,7 @@ body {
 /* -------------------------------------------------------------------------- */
 
 footer{
-  background-color: #646464;
+  background-color: #2A2E2E;
   -webkit-box-shadow: 0px 0px 13px 7px rgba(0,0,0,0.5);
   -moz-box-shadow: 0px 0px 13px 7px rgba(0,0,0,0.5);
   box-shadow: 0px 0px 13px 7px rgba(0,0,0,0.5);
