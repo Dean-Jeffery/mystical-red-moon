@@ -167,11 +167,9 @@ header .wrapper{
 
 ul li{
   display: inline-flex;
-}
-
-header ul li{
   padding: 0 2.5px;
 }
+
 
 /* -------------------------------------------------------------------------- */
 /*	3. Layout
@@ -279,7 +277,6 @@ body {
   width: -moz-max-content;    /* Firefox/Gecko */
   width: -webkit-max-content; /* Chrome */
   width: max-content;
-  margin-bottom: 10px;
 }
 
 .wrapper{
@@ -298,13 +295,14 @@ body {
 
 
 input[type=text]{
-  width: auto;
+  width: 33%;
   padding: 5px;
-  margin: 5px 0 22px 0;
+  margin: 25px 0 25px 0;
   border: none;
   border-radius: 8px;
   background: #888888;
   color: white;
+  font-size: 0.8rem;
 }
 
 input[type=text]:focus {
@@ -327,6 +325,17 @@ form .button{
 /* -------------------------------------------------------------------------- */
 /*	8. Footer
 /* -------------------------------------------------------------------------- */
+
+.email-signup{
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 35px 0;
+}
+
+.email-signup form .button{
+  margin: 0 auto;
+}
 
 footer{
   background-color: #2A2E2E;

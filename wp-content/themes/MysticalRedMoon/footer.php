@@ -1,5 +1,5 @@
 </div>
-<div class="wrapper">
+<div class="email-signup">
     <!-- Email signup -->
     <form action="">
         <h4>Join Our Mailing List</h4>
@@ -39,7 +39,7 @@
         </div>
     </div>
     <div class="shameless-plug">
-    <p>Website by <a href="http://deanjeffery.co.uk" target="_blank">Dean Jeffery</a></p>
+    <p>Website built by <a href="http://deanjeffery.co.uk" target="_blank">Dean Jeffery</a></p>
 </div> 
 </footer>
 
