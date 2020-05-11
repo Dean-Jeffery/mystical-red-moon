@@ -4,6 +4,7 @@
   <meta charset="<?php bloginfo('charset'); ?>" />
   <meta name="viewport" content="width=device-width" />
   <?php wp_head(); ?>
+  <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/style.css' ?>">
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,400,400i,700,700i|Yeseva+One&display=swap" rel="stylesheet">
 </head>
 <body <?php body_class(); ?>>
@@ -14,14 +15,7 @@
     </div>
     <div class="nav-bar">
     <nav>
-      <ul>
-        <li><a href="home">Home</a></li>
-        <li><a href="about">About</a></li>
-        <li><a href="Blog">Blog</a></li>
-        <li><a href="Resources">Resources</a></li>
-        <li><a href="contact">Contact</a></li>
-        <li><a href="Shop">Shop</a></li>
-      </ul>
+      <?php wp_nav_menu( array( 'theme_location' => 'Nav' ) );?>
     </nav>
     </div>
     </div>
