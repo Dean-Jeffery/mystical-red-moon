@@ -1,7 +1,7 @@
 </div>
 <div class="email-signup">
     <!-- Email signup -->
-    <form action="">
+    <form title="email-signup" action="">
         <h4>Join Our Mailing List</h4>
         <input type="text" placeholder="Enter Email" name="email" required>
         <button type="submit" class="button">Signup</button>
@@ -27,6 +27,9 @@
                     </li>
                     <li>
                         <a href="">Blog</a>
+                    </li>
+                    <li>
+                        <a href="">Resources</a>
                     </li>
                     <li>
                         <a href="">Contact</a>

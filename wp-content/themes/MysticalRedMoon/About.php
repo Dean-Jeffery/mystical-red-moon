@@ -1,7 +1,7 @@
 <?php /* Template Name: About */ ?>
 <?php get_header(); ?>
 <main id="content">
-    <div class="feature">
+    <div class="feature about-feature">
         <div class="two-thirds">
             <h2>About me</h2>
             <p>This is some body text. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
