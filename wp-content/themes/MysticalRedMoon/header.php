@@ -15,7 +15,7 @@
     </div>
     <div class="nav-bar">
     <nav>
-      <?php wp_nav_menu( array( 'theme_location' => 'Nav' ) );?>
+      <?php wp_nav_menu( array( 'theme_location' => 'Header-menu' ) );?>
     </nav>
     </div>
     </div>

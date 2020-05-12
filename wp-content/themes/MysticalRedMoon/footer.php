@@ -34,9 +34,9 @@
                     <li>
                         <a href="">Contact</a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="">Shop</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>
