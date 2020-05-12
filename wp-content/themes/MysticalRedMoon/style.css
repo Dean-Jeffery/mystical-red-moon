@@ -1,6 +1,6 @@
 /*
-Theme Name: mysticalRedMoon
-Theme URI: mysticalredmoon.co.uk
+Theme Name: RedMoonTarot
+Theme URI: RedMoonTarot.co.uk
 Author: Dean Jeffery
 Author URI: deanjeffery.co.uk
 Description: Custom built WordPress theme for Mystical Red Moon website
@@ -8,9 +8,9 @@ Version: 1.0.0
 License: GNU General Public License
 License URI: https://www.gnu.org/licenses/gpl.html
 Tags:
-Text Domain: mysticalRedMoon
+Text Domain: RedMoonTarot
 
-mysticalRedMoon WordPress Theme © 2020
+RedMoonTarot WordPress Theme © 2020
 
 */
 /*--------------------------------------------------------------
@@ -21,13 +21,13 @@ mysticalRedMoon WordPress Theme © 2020
 	1. 	Typography
 	2. 	Header
   3.  Layout
-  4. About
+  4.  About
   5.  Blog
   6.  Contact + email signup
   7.  Shop
 	8.  Error 404
 	9.  Footer
-	10.  Media Queries
+	10. Media Queries
 
 >>> Color codes
 ---primary---
@@ -278,6 +278,7 @@ body {
   width: -moz-max-content;    /* Firefox/Gecko */
   width: -webkit-max-content; /* Chrome */
   width: max-content;
+  line-height: inherit;
 }
 
 .wrapper{
