@@ -249,8 +249,7 @@ body {
 }
 
 .red-container{
-  /* background-color: #AA183A; */
-  background-color: black;
+  background-color: #AA183A;
   border: white;
   height: auto;
   max-width: 100%;
