@@ -25,7 +25,7 @@
           <!-- // Display the Post Title with Hyperlink -->
           <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
           <!-- // Display the Post Excerpt -->
-          <p><?php the_excerpt(__('(more…)')); ?></p>
+          <?php the_excerpt(__('(more…)')); ?>
           <a href="<?php the_permalink() ?>" class="button">Read more</a>
         </div>
       <!-- // Repeat the process and reset once it hits the limit -->
