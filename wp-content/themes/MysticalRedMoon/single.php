@@ -12,7 +12,7 @@
       <h2 class="entry-title"><?php the_title(); ?></h2>
     </div>
 
-    <div class="entry-content">
+    <div class="entry-content blog-style">
       <?php the_content(); ?>
     </div><!-- .entry-content -->
 
