@@ -313,6 +313,8 @@ body {
   max-width: 60%;
 }
 
+
+/* blockquote credit https://codepen.io/tysonmatanich/pen/jIBpJ */
 blockquote {
   min-height: 1em;
   margin: 25px;
@@ -333,8 +335,13 @@ blockquote p{
 }
 
 /* selector for items on blog page which need specific styles but are on other pages */
+
 .blog-style h3{
   padding: 25px 0;
+}
+
+.blog-style img, iframe{
+  margin: 25px 0;
 }
 
 hr{
