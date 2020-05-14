@@ -334,9 +334,14 @@ blockquote p{
 
 /* selector for items on blog page which need specific styles but are on other pages */
 .blog-style h3{
-  padding: 15px 0;
+  padding: 25px 0;
 }
 
+hr{
+  color: #AA183A;
+  margin: 25px 0;
+  border: 1px solid;
+}
 
 /* -------------------------------------------------------------------------- */
 /*	6. Contact + email signup
