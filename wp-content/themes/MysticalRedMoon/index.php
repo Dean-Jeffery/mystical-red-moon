@@ -17,18 +17,18 @@
     <div class="wrapper">
       <h2>Recent Blogs</h2>
       <div class="thirds">
-        <!-- // Define WP Query Parameters -->
+        <!-- Define WP Query Parameters -->
         <?php $the_query = new WP_Query( 'posts_per_page=3' ); ?>
-        <!-- // Start WP Query -->
+        <!-- Start WP Query -->
         <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
         <div class="one-thirds">
-          <!-- // Display the Post Title with Hyperlink -->
+          <!-- Display the Post Title with Hyperlink -->
           <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
-          <!-- // Display the Post Excerpt -->
+          <!-- Display the Post Excerpt -->
           <?php the_excerpt(__('(more…)')); ?>
           <a href="<?php the_permalink() ?>" class="button">Read more</a>
         </div>
-      <!-- // Repeat the process and reset once it hits the limit -->
+      <!-- Repeat the process and reset once it hits the limit -->
       <?php 
       endwhile;
       wp_reset_postdata();

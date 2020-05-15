@@ -139,18 +139,18 @@ h5{
 p, li a{
   color: #DDDDDD;
   font-family: 'Roboto', Arial, sans-serif;
-  font-weight: 300;
-  line-height: 1.3rem;
   font-size: 1rem;
+  font-weight: 300;
   letter-spacing: 0.05rem;
+  line-height: 1.3rem;
 }
 
 cite{
   font-family: 'Roboto', Arial, sans-serif;
-  font-weight: 300;
-  line-height: 1.3rem;
+  font-weight: 300;  
   font-size: 0.9rem;
   letter-spacing: 0.05rem;
+  line-height: 1.3rem;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -259,8 +259,8 @@ body {
   background-color: #AA183A;
   border: white;
   height: auto;
-  max-width: 100%;
   padding: 50px 0;
+  max-width: 100%;
 }
 
 .red-container h2{
@@ -268,35 +268,35 @@ body {
 }
 
 .red-container h3 a{
+  color: inherit;
   font-size: inherit;
   font-weight: inherit;
-  color: inherit;
 }
 
 .button{
-  border: 2px solid #AA183A;
+  align-items: center;
   background-color: transparent;
+  border: 2px solid #AA183A;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
   color: #AA183A;
   cursor: pointer;
+  display: flex;
   font-family: 'roboto', arial, sans-serif;
   font-size: 1.1rem;
+  line-height: inherit;
   padding: 5px 10px;
-  display: flex;
-  align-items: center;
   text-decoration: none;
   width: intrinsic;           /* Safari/WebKit uses a non-standard name */
   width: -moz-max-content;    /* Firefox/Gecko */
   width: -webkit-max-content; /* Chrome */
   width: max-content;
-  line-height: inherit;
 }
 
 .wrapper{
-  max-width: 80%;
   margin: 0 auto;
+  max-width: 80%;
 }
 
 
@@ -316,18 +316,18 @@ body {
 
 /* blockquote credit https://codepen.io/tysonmatanich/pen/jIBpJ */
 blockquote {
-  min-height: 1em;
-  margin: 25px;
-  padding: 1em 2em;
+  background-color: #2A2E2E;
   border-left: 0.5em solid #AA183A;
   border-right: 0.5em solid #AA183A;
   border-radius: 0.25em;
-  background-color: #2A2E2E;
-  line-height: 1.5em;
-  color: #B3A2A7;
   -webkit-box-shadow: 0px 0px 13px 7px rgba(0,0,0,0.5);
   -moz-box-shadow: 0px 0px 13px 7px rgba(0,0,0,0.5);
   box-shadow: 0px 0px 13px 7px rgba(0,0,0,0.5);
+  color: #B3A2A7;
+  line-height: 1.5em;
+  min-height: 1em;
+  margin: 25px;
+  padding: 1em 2em;
 }
 
 blockquote p{
@@ -345,9 +345,9 @@ blockquote p{
 }
 
 hr{
+  border: 1px solid;
   color: #AA183A;
   margin: 25px 0;
-  border: 1px solid;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -356,20 +356,20 @@ hr{
 
 
 input[type=text]{
-  width: 33%;
-  padding: 5px;
-  margin: 25px 0 25px 0;
+  background: #888888;
   border: none;
   border-radius: 8px;
-  background: #888888;
   color: white;
   font-size: 0.8rem;
+  padding: 5px;
+  margin: 25px 0 25px 0;
+  width: 33%;
 }
 
 input[type=text]:focus {
   background-color: #ddd;
-  outline: none;
   color: black;
+  outline: none;
 }
 
 form .button{
@@ -390,8 +390,8 @@ form .button{
 .email-signup{
   max-width: 80%;
   margin: 0 auto;
-  text-align: center;
   padding: 35px 0;
+  text-align: center;
 }
 
 .email-signup form .button{
@@ -406,14 +406,14 @@ footer{
 }
 
 .footer{
-  padding: 35px 0;
   display: flex;
   justify-content: space-between;
+  padding: 35px 0;
 }
 
 .shameless-plug p{
-  text-align: center;
   font-size: 0.8rem;
+  text-align: center;
 }
 .shameless-plug a{
   color: #000000;
