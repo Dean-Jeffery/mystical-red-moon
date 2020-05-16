@@ -142,7 +142,7 @@ p, li a{
   font-size: 1rem;
   font-weight: 300;
   letter-spacing: 0.05rem;
-  line-height: 1.3rem;
+  line-height: 1.35rem;
 }
 
 cite{
@@ -347,8 +347,27 @@ blockquote p{
 hr{
   border: 1px solid;
   color: #AA183A;
-  margin: 25px 0;
+  margin: 25px auto;
+  width: 85%;
 }
+
+.full-width{
+  width: 100%;
+  padding-bottom: 25px;
+}
+
+.full-width:last-of-type{
+  padding-bottom: 0;
+}
+
+.full-width p{
+  padding-top: 5px;
+}
+
+.all-blog{
+  flex-direction: column;
+}
+
 
 /* -------------------------------------------------------------------------- */
 /*	6. Contact + email signup

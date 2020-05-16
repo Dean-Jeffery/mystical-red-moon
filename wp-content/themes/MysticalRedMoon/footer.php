@@ -14,7 +14,7 @@
         <div class="footer">
             <div>
                 <div class="contact">
-                    <p>hello@redmoontarot.com</p>
+                    <p>dana@redmoontarot.co.uk</p>
                 </div>
             </div>
             <div>

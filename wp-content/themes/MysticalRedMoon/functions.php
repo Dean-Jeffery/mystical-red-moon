@@ -14,9 +14,17 @@ function register_my_menus() {
 
 
 //Change excerpt length
+//use 50 words on 'blog' page
+//and 20 in recent blogs segment on other pages
  add_filter( 'excerpt_length', function($length) {
-  return 20;
-} );
+  if (is_page_template('blog.php')){
+    return 50;
+  } else{
+    return 20;
+  }
+
+  }
+ );
  ?>
 
 
