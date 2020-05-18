@@ -378,14 +378,17 @@ input[type=text]{
   background: #888888;
   border: none;
   border-radius: 8px;
-  color: white;
+  color: #ffffff;
   font-size: 0.8rem;
   padding: 5px;
   margin: 25px 0 25px 0;
   width: 33%;
 }
 
-input[type=text]:focus {
+input[type=text]:focus,
+.wpcf7 input[type="text"]:focus,
+.wpcf7 input[type="email"]:focus,
+.wpcf7 textarea:focus {
   background-color: #ddd;
   color: black;
   outline: none;
@@ -393,6 +396,45 @@ input[type=text]:focus {
 
 form .button{
   display: block;
+}
+
+.one-half{
+  width: 50%;
+}
+
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 textarea
+{
+  background: #888888;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 0.8rem;
+  padding: 5px;
+  margin: 25px 0 25px 0;
+  width: 65%;
+}
+
+.wpcf7 input{
+  align-items: center;
+  background-color: transparent;
+  border: 2px solid #AA183A;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #AA183A;
+  cursor: pointer;
+  display: flex;
+  font-family: 'roboto', arial, sans-serif;
+  font-size: 1.1rem;
+  line-height: inherit;
+  padding: 5px 10px;
+  text-decoration: none;
+  width: intrinsic;           /* Safari/WebKit uses a non-standard name */
+  width: -moz-max-content;    /* Firefox/Gecko */
+  width: -webkit-max-content; /* Chrome */
+  width: max-content;
 }
 
 
