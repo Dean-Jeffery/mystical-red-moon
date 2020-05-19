@@ -79,6 +79,10 @@ $table_prefix = 'dpj70_';
  */
 define( 'WP_DEBUG', true );
 
+// remove cf7 br and p tags
+define ( 'WPCF7_AUTOP', false );
+
+
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
@@ -88,3 +92,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once( ABSPATH . 'wp-settings.php' );
+
+
+
+
+
+
