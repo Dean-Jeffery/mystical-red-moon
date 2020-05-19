@@ -1,29 +1,21 @@
 <?php /* Template Name: About */ ?>
 <?php get_header(); ?>
 <main id="content">
+
     <div class="feature about-feature">
-        <div class="two-thirds">
-            <h2>About me</h2>
-            <p>This is some body text. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-            <p>This is some body text. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-            <p>This is some body text. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-            <p>This is some body text. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
+        <div class="full-width">
+            <!-- pull content for about, probably not the most reliable way to do it but it works -->
+        <?php while ( have_posts() ) : the_post(); ?> <!-- Pull about content -->
+        <div class="title">
+            <?php the_post_thumbnail(); ?>
+            <h2 class="entry-title"><?php the_title(); ?></h2>
         </div>
-        <div class="one-thirds">
-            <img src="https://image.shutterstock.com/image-photo/happy-cheerful-young-woman-wearing-260nw-613759379.jpg" alt="profile-pic">
+        <div class="content">
+            <?php the_content(); ?>
+        </div>
+        <?php endwhile; // end of the loop. ?>
         </div>
     </div>
+
 </main>
 <?php get_footer(); ?>
