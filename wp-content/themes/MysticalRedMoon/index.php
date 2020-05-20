@@ -4,18 +4,26 @@
   <div class="feature">
         <div class="full-width">
             <!-- pull content for about, probably not the most reliable way to do it but it works -->
-        <?php while ( have_posts() ) : the_post(); ?> <!-- Pull about content -->
-        <div class="title">
-            <?php the_post_thumbnail(); ?>
-            <h2 class="entry-title h2-no-padding"><?php the_title(); ?></h2>
-        </div>
-        <div class="content">
-            <?php the_content(); ?>
-        </div>
-        <a href="about.php" class="button">Read more</a>
-        <?php endwhile; // end of the loop. ?>
+          <?php while ( have_posts() ) : the_post(); ?> <!-- Pull about content -->
+          <div class="title">
+              <?php the_post_thumbnail(); ?>
+              <h2 class="entry-title h2-no-padding"><?php the_title(); ?></h2>
+          </div>
+          <div class="content">
+              <?php the_content(); ?>
+              <a href="about.php" class="button">Read more</a>
+          </div>
+          <?php endwhile; // end of the loop. ?>
         </div>
     </div>
+
+
+
+
+
+
+
+
   <div class="red-container">
     <div class="wrapper">
       <h2>Recent Blogs</h2>

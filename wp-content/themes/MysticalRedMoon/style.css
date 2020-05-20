@@ -372,6 +372,11 @@ hr{
   flex-direction: column;
 }
 
+.content{
+  display: flex;
+  flex-direction: column;
+}
+
 
 /* -------------------------------------------------------------------------- */
 /*	6. Contact + email signup
