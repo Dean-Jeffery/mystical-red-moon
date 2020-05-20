@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Google Analytics Dashboard Plugin for WordPress by MonsterInsights - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-08 17:09:24+0000\n"
+"PO-Revision-Date: 2020-05-16 17:33:24+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -195,9 +195,217 @@ msgstr "Do not use this feature if you use FeedBurner, as FeedBurner can do this
 msgid "Enabling %1$scross-domain tracking (additional setup required)%2$s allows you to track users across multiple properties you own (such as example-1.com and example-2.com as a single session. It also allows you fix an issue so that when a user has to go to an off-site hosted payment gateway to finish a purchase it doesn't count it as referral traffic from that gateway but maintains the visit as part of the same session.) It is required that the other site includes a Google Analytics tracker with the same UA Code."
 msgstr "Enabling %1$scross-domain tracking (additional setup required)%2$s allows you to track users across multiple properties you own (such as example-1.com and example-2.com as a single session. It also allows you fix an issue so that when a user has to go to an off-site hosted payment gateway to finish a purchase it doesn't count it as referral traffic from that gateway but maintains the visit as part of the same session.) It is required that the other site includes a Google Analytics tracker with the same UA Code."
 
+#: languages/vue.php:2358
+msgid "Add %1$sEnhanced Link Attribution%2$s to your tracking code."
+msgstr "Add %1$sEnhanced Link Attribution%2$s to your tracking code."
+
+#: languages/vue.php:2355
+msgid "This adds %1$sanonymizeIp%2$s, telling Google Analytics to anonymize the information sent by the tracker objects by removing the last octet of the IP address prior to its storage."
+msgstr "This adds %1$sanonymizeIp%2$s, telling Google Analytics to anonymise the information sent by the tracker objects by removing the last octet of the IP address prior to its storage."
+
+#: languages/vue.php:2352
+msgid "Enable this setting to add the Demographics and Remarketing features to your Google Analytics tracking code. Make sure to enable Demographics and Remarketing in your Google Analytics account. We have a guide for how to do that in our %1$sknowledge base%2$s. For more information about Remarketing, we refer you to %3$sGoogle's documentation%4$s. Note that usage of this function is affected by privacy and cookie laws around the world. Be sure to follow the laws that affect your target audience."
+msgstr "Enable this setting to add the Demographics and Remarketing features to your Google Analytics tracking code. Make sure to enable Demographics and Remarketing in your Google Analytics account. We have a guide for how to do that in our %1$sknowledge base%2$s. For more information about Remarketing, we refer you to %3$sGoogle's documentation%4$s. Note that usage of this function is affected by privacy and cookie laws around the world. Be sure to follow the laws that affect your target audience."
+
+#: languages/vue.php:2349
+msgid "This allows you to track custom affiliate links. A path of /go/ would match urls that start with that. The label is appended onto the end of the string \"outbound-link-\", to provide unique labels for these links in Google Analytics. Complete documentation on affiliate links is available %1$shere%2$s."
+msgstr "This allows you to track custom affiliate links. A path of /go/ would match URLs that start with that. The label is appended onto the end of the string \"outbound-link-\", to provide unique labels for these links in Google Analytics. Complete documentation on affiliate links is available %1$shere%2$s."
+
 #: languages/vue.php:2346
 msgid "Add your MonsterInsights license key from the email receipt or account area. %1$sRetrieve your license key%2$s."
 msgstr "Add your MonsterInsights licence key from the email receipt or account area. %1$sRetrieve your licence key%2$s."
+
+#: languages/vue.php:2343
+msgid "None %1$s- Manually update everything.%2$s"
+msgstr "None %1$s- Manually update everything.%2$s"
+
+#: languages/vue.php:2340
+msgid "Minor only %1$s- Get bugfixes and security updates, but not major features.%2$s"
+msgstr "Minor only %1$s- Get bug fixes and security updates, but not major features.%2$s"
+
+#: languages/vue.php:2337
+msgid "Yes (recommended) %1$s- Get the latest features, bugfixes, and security updates as they are released.%2$s"
+msgstr "Yes (recommended) %1$s- Get the latest features, bug fixes, and security updates as they are released.%2$s"
+
+#: languages/vue.php:2334
+msgid "Can't load report data. Error: %1$s, %2$s"
+msgstr "Can't load report data. Error: %1$s, %2$s"
+
+#: includes/admin/routes.php:301
+msgid "Better Coming Soon & Maintenance Mode Pages"
+msgstr "Better Coming Soon & Maintenance Mode Pages"
+
+#: includes/admin/common.php:877
+msgid "View 2019 Year in Review report!"
+msgstr "View 2019 Year in Review report!"
+
+#: languages/vue.php:2307
+msgid "%s&#37 of your visitors were on a %s device."
+msgstr "%s&#37 of your visitors were on a %s device."
+
+#: languages/vue.php:2304
+msgid "Most of your visitors viewed your website from their <strong>%s</strong> device."
+msgstr "Most of your visitors viewed your website from their <strong>%s</strong> device."
+
+#: languages/vue.php:2301
+msgid "Each visitor spent an average of %s minutes on your website in 2019."
+msgstr "Each visitor spent an average of %s minutes on your website in 2019."
+
+#: languages/vue.php:2298
+msgid "Your <strong>%s</strong> visitors viewed a total of <strong>%s</strong> pages. <span class='average-page-per-user' style='font-size: 20px;margin-top:25px;display:block;font-family:Lato'>That's an average of %s pages for each visitor!</span>"
+msgstr "Your <strong>%s</strong> visitors viewed a total of <strong>%s</strong> pages. <span class='average-page-per-user' style='font-size: 20px;margin-top:25px;display:block;font-family:Lato'>That's an average of %s pages for each visitor!</span>"
+
+#: languages/vue.php:2295
+msgid "%s&#37 of your visitors were between the ages of %s"
+msgstr "%s&#37 of your visitors were between the ages of %s"
+
+#: languages/vue.php:2292
+msgid "%s&#37 of your visitors were %s"
+msgstr "%s&#37 of your visitors were %s"
+
+#: languages/vue.php:2289
+msgid "%s Visitors"
+msgstr "%s Visitors"
+
+#: languages/vue.php:2286
+msgid "Your <strong>%s</strong> visitors came from <strong>%s</strong> different countries."
+msgstr "Your <strong>%s</strong> visitors came from <strong>%s</strong> different countries."
+
+#: languages/vue.php:2283
+msgid "Your best month was <strong>%s</strong> with <strong>%s visitors!</strong>"
+msgstr "Your best month was <strong>%s</strong> with <strong>%s visitors!</strong>"
+
+#: languages/vue.php:2280
+msgid "December"
+msgstr "December"
+
+#: languages/vue.php:2277
+msgid "November"
+msgstr "November"
+
+#: languages/vue.php:2274
+msgid "October"
+msgstr "October"
+
+#: languages/vue.php:2271
+msgid "September"
+msgstr "September"
+
+#: languages/vue.php:2268
+msgid "August"
+msgstr "August"
+
+#: languages/vue.php:2265
+msgid "July"
+msgstr "July"
+
+#: languages/vue.php:2262
+msgid "June"
+msgstr "June"
+
+#: languages/vue.php:2259
+msgid "May"
+msgstr "May"
+
+#: languages/vue.php:2256
+msgid "April"
+msgstr "April"
+
+#: languages/vue.php:2253
+msgid "March"
+msgstr "March"
+
+#: languages/vue.php:2250
+msgid "February"
+msgstr "February"
+
+#: languages/vue.php:2247
+msgid "January"
+msgstr "January"
+
+#: languages/vue.php:2244
+msgid "Upgrade to MonsterInsights Pro to Unlock Additional Actionable Insights"
+msgstr "Upgrade to MonsterInsights Pro to unlock additional actionable insights"
+
+#: languages/vue.php:2241
+msgid "Copyright MonsterInsights, 2020"
+msgstr "Copyright MonsterInsights, 2020"
+
+#: languages/vue.php:2238
+msgid "Follow MonsterInsights on social media to stay up to date with latest updates, trends, and tutorials on how to make the most out of analytics."
+msgstr "Follow MonsterInsights on social media to stay up to date with latest updates, trends, and tutorials on how to make the most out of analytics."
+
+#: languages/vue.php:2235
+msgid "Follow Us!"
+msgstr "Follow us!"
+
+#: languages/vue.php:2232
+msgid "Visit WPBeginner"
+msgstr "Visit WPBeginner"
+
+#: languages/vue.php:2229
+msgid "WPBeginner is the largest free WordPress resource site for beginners and non-techy users."
+msgstr "WPBeginner is the largest free WordPress resource site for beginners and non-techy users."
+
+#: languages/vue.php:2226
+msgid "WordPress Tutorials by WPBeginner"
+msgstr "WordPress Tutorials by WPBeginner"
+
+#: languages/vue.php:2175
+msgid "Use referral sources to create new partnerships or expand existing ones. See our guide on how to spy on your competitors and ethically steal their traffic."
+msgstr "Use referral sources to create new partnerships or expand existing ones. See our guide on how to spy on your competitors and ethically steal their traffic."
+
+#: languages/vue.php:2172
+msgid "Opportunity"
+msgstr "Opportunity"
+
+#: languages/vue.php:2169
+msgid "The websites that link back to your website"
+msgstr "The websites that link back to your website"
+
+#: languages/vue.php:2166
+msgid "Your Top 5 Referrals"
+msgstr "Your Top 5 Referrals"
+
+#: languages/vue.php:2163
+msgid "What keywords visitors searched for to find your site"
+msgstr "Which keywords visitors searched for to find your site"
+
+#: languages/vue.php:2160
+msgid "Your Top 5 Keywords"
+msgstr "Your Top 5 Keywords"
+
+#: languages/vue.php:2157
+msgid "Impressions"
+msgstr "Impressions"
+
+#: languages/vue.php:2154
+msgid "So, where did all of these visitors come from?"
+msgstr "So, where did all of these visitors come from?"
+
+#: languages/vue.php:2151
+msgid "Read - 32 Marketing Hacks to Grow Your Traffic"
+msgstr "Read - 32 Marketing Hacks to Grow Your Traffic"
+
+#: languages/vue.php:2148
+msgid "Take advantage of what you’ve already built. See how to get more traffic from existing content in our 32 Marketing Hacks to Grow Your Traffic."
+msgstr "Take advantage of what you’ve already built. See how to get more traffic from existing content in our 32 Marketing Hacks to Grow Your Traffic."
+
+#: languages/vue.php:2145
+msgid "A Tip For 2020"
+msgstr "A Tip For 2020"
+
+#: languages/vue.php:2142
+msgid "Device Type"
+msgstr "Device Type"
+
+#: languages/vue.php:2139
+msgid "minutes"
+msgstr "minutes"
+
+#: languages/vue.php:2136
+msgid "Time Spent on Site"
+msgstr "Time Spent on Site"
 
 #: languages/vue.php:2031
 msgid "Error loading license details"
