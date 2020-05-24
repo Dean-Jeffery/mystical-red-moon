@@ -300,6 +300,19 @@ body {
 }
 
 
+.wp-block-media-text .wp-block-media-text__content{
+  padding: 0 0 0 0;
+}
+
+.wp-block-media-text__media{
+  padding: 0 0 0 8%;
+  /* box-sizing: border-box; */
+}
+
+.has-text-align-left{
+  padding: 0;
+}
+
 /* -------------------------------------------------------------------------- */
 /*	4. About
 /* -------------------------------------------------------------------------- */
@@ -368,7 +381,7 @@ hr{
 }
 
 .full-width p{
-  padding-top: 5px;
+  padding: 15px 0;
 }
 
 .all-blog{
