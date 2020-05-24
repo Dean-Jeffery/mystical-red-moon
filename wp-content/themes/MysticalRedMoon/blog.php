@@ -13,6 +13,7 @@
 
           <!-- Display the Post Excerpt -->
           <?php the_excerpt(__('(more…)')); ?>
+          <a href="<?php the_permalink() ?>" class="button">Read more</a>
 
           <!-- post date -->
           <span class="date"><?php echo get_the_date(); ?></span>

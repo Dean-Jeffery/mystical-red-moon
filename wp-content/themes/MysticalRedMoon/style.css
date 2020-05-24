@@ -299,6 +299,10 @@ body {
   max-width: 80%;
 }
 
+.content p{
+  padding-top: 5px;
+}
+
 
 .wp-block-media-text .wp-block-media-text__content{
   padding: 0 0 0 0;
