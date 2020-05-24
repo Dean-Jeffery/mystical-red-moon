@@ -118,7 +118,7 @@ h2 {
 h3{
   color: #B3A2A7;
   font-family: 'Roboto', Arial, sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   letter-spacing: 0.05rem;
 }
 
@@ -380,9 +380,40 @@ hr{
   padding-bottom: 0;
 }
 
-.full-width p{
-  padding: 15px 0;
+.full-width h3{
+  padding-bottom: 5px;
 }
+
+.date{
+  opacity: .7;  
+  color: #DDDDDD;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 0.05rem;
+  line-height: 1.35rem;
+}
+
+.full-width p a{
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  list-style-type: none;
+  visibility: visible;
+  background: transparent;
+  cursor: pointer;
+  text-decoration: none;
+  box-sizing: border-box;
+  margin: 5px 0 5px 0;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+  display: block;
+  color: #DDDDDD;
+}
+
+
+
 
 .all-blog{
   flex-direction: column;
@@ -438,7 +469,7 @@ form .button{
   font-size: 0.8rem;
   padding: 5px;
   margin: 15px 0 25px 0;
-  width: 65%;
+  width: 80%;
 }
 
 .wpcf7 input{
