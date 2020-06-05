@@ -1,8 +1,6 @@
 <?php /* Template Name: Home */ ?>
 <?php get_header(); ?>
 <main id="content">
-
-
   <div class="feature">
         <div class="full-width">
             <!-- pull content for about, probably not the most reliable way to do it but it works -->
@@ -17,8 +15,6 @@
         <?php endwhile; // end of the loop. ?>
         </div>
     </div>
-
-
   <div class="red-container">
     <div class="wrapper">
       <h2>Recent Blogs</h2>

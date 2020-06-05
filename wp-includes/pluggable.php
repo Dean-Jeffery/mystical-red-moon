@@ -25,7 +25,6 @@ if ( ! function_exists( 'wp_set_current_user' ) ) :
 	 */
 	function wp_set_current_user( $id, $name = '' ) {
 		global $current_user;
-
 		// If `$id` matches the current user, there is nothing to do.
 		if ( isset( $current_user )
 		&& ( $current_user instanceof WP_User )
@@ -34,22 +33,17 @@ if ( ! function_exists( 'wp_set_current_user' ) ) :
 		) {
 			return $current_user;
 		}
-
 		$current_user = new WP_User( $id, $name );
-
 		setup_userdata( $current_user->ID );
-
 		/**
 		 * Fires after the current user is set.
 		 *
 		 * @since 2.0.1
 		 */
 		do_action( 'set_current_user' );
-
 		return $current_user;
 	}
 endif;
-
 if ( ! function_exists( 'wp_get_current_user' ) ) :
 	/**
 	 * Retrieve the current user object.
@@ -97,18 +91,14 @@ if ( ! function_exists( 'get_user_by' ) ) :
 	 */
 	function get_user_by( $field, $value ) {
 		$userdata = WP_User::get_data_by( $field, $value );
-
 		if ( ! $userdata ) {
 			return false;
 		}
-
 		$user = new WP_User;
 		$user->init( $userdata );
-
 		return $user;
 	}
 endif;
-
 if ( ! function_exists( 'cache_users' ) ) :
 	/**
 	 * Retrieve info for user lists to prevent multiple queries by get_userdata()
@@ -2807,4 +2797,3 @@ if ( ! function_exists( 'wp_text_diff' ) ) :
 		return $r;
 	}
 endif;
-

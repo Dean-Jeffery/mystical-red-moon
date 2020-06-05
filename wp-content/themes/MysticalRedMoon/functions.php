@@ -1,5 +1,4 @@
 <?php
-
 //something for menus? scared to delete
 function register_my_menus() {
   register_nav_menus(
@@ -10,9 +9,6 @@ function register_my_menus() {
    );
  }
  add_action( 'init', 'register_my_menus' );
-
-
-
 //Change excerpt length
 //use 50 words on 'blog' page
 //and 20 in recent blogs segment on other pages
@@ -22,18 +18,12 @@ function register_my_menus() {
   } else{
     return 20;
   }
-
   }
  );
-
   // Changing excerpt more
 //  function new_excerpt_more($more) {
 //   global $post;
 //   return '<a href="'. get_permalink($post->ID) . '">' . 'Read More →' . '</a>';
 //   }
 //   add_filter('excerpt_more', 'new_excerpt_more');
-
-
 //  ?>
-
-
